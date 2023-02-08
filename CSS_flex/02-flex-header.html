@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header  {
+            display: flex;
+            justify-content: space-between;
+  font-family: monospace;
+  background: rgb(120, 130, 134);
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(255, 111, 27);
+  background: rgb(0, 0, 0);
+  padding: 4px 32px;
+}
+
+  ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  padding: none;
+  margin: none;
+
+}
+
+a {
+  font-size: 22px;
+  background: rgb(87, 188, 246);
+  padding: 8px;
+  margin: 3px;
+  /* this removes the line under the links */
+  text-decoration: none;
+  color: white;
+  border:2px solid black;
+  justify-content: flex-start;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left-links">
+          <ul>
+            <li><a href="#">ONE</a></li>
+            <li><a href="#">TWO</a></li>
+            <li><a href="#">THREE</a></li>
+          </ul>
+        </div>
+        <div class="logo">LOGO</div>
+        <div class="right-links">
+          <ul>
+            <li><a href="#">FOUR</a></li>
+            <li><a href="#">FIVE</a></li>
+            <li><a href="#">SIX</a></li>
+          </ul>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex center</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            background-color: lightgrey;
+            height: 500px;
+            width: 500px;
+            border-radius: 10px;
+            border: solid black 2px;
+            
+        }
+        p{
+            background-color: rgb(41, 166, 208);
+            text-align: center;
+            align-items: center;
+            height: 150px;
+            width: 200px;
+            font-size: larger;
+            border: 2px solid black;
+            border-radius: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="flex-container">
+        <p>This is a text which is supposed to be in center</p>
+    </div>
+</div>
+</body>
+</html>
